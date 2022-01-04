@@ -1,0 +1,55 @@
+# Name of the quickstart (required)
+name: Harness
+
+# Displayed in the UI (required)
+title: Harness
+
+# Long-form description of the quickstart (required)
+description: |
+  ## What is Harness
+
+  Harness is the industry’s first Software Delivery Platform to use AI to simplify your DevOps processes - CI, CD, Feature Flags, Cloud Costs, and much more.Intelligent Software Delivery Platform
+
+  ## Getting Started
+  
+  Sign up for an account [here](https://app.harness.io/auth/#/signup/)
+
+  ## More info
+
+  Check out our [Harness Documentation](https://ngdocs.harness.io) 
+
+# Displayed in search results and recommendations. Summarizes a quickstarts functionality.
+summary: |
+  Send your Harness CI/CD data to NewRelic
+
+# Support level: New Relic | Verified | Community (required)
+level: Community
+
+# Authors of the quickstart (required)
+authors:
+  - Peter Hack (Harness)
+
+# Keywords for filtering / searching criteria in the UI
+keywords:
+  - continuous integration
+  - continuous delivery
+  - CI/CD
+  - Feature Flags
+  - delivery
+  - integration
+  - Cloud Cost Management
+
+# Reference to install plans located under /install directory
+# Allows us to construct reusable "install plans" and just use their ID in the quickstart config
+installPlans:
+  - third-party-harness
+
+documentation:
+  - name: Harness Getting Started Docs
+    url: https://ngdocs.harness.io/article/p8lqq2il39-verify-deployments-with-new-relic
+    description: |
+      Send Harness CI/CD data to NewRelic
+
+# Content / Design
+logo: logo.svg 
+website: https://harness.io
